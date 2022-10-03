@@ -13,7 +13,7 @@ public class MyApplet extends Applet implements Runnable{
 
 	
 	
-	public void init(){
+	//public void init(){
 		x=getWidth()/2;
 		y=getHeight()/2;
 		th = new Thread(this);
